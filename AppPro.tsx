@@ -9,7 +9,6 @@ import {
 
 function AppPro(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
-
   return (
     <SafeAreaView
       style={isDarkMode ? styles.safeAreaDark : styles.safeAreaLight}>
